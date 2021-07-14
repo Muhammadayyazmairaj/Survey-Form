@@ -64,7 +64,7 @@
             Which option best describes your current role?
           </p>
           <select
-            name="role"
+            name="roles"
             id="dropdown"
             class="form-control"
             required=""
@@ -77,11 +77,44 @@
             <option value="learner">
               Full Time Learner
             </option>
-            <option value="preferNo">
+            <option value="prefer-not">
               Prefer Not To Say
             </option>
             <option value="other">Other</option>
           </select>
+        </div>
+        <div class="form-group">
+          <p>
+            Would you recommend freeCodeCamp to a friend?
+          </p>
+          <label>
+            <input
+              class="input-radio"
+              name="user-selection"
+              type="radio"
+              value="definitely"
+              checked=""
+            />
+            Definitely
+          </label>
+          <label>
+            <input
+              class="input-radio"
+              name="user-selection"
+              type="radio"
+              value="maybe"
+            />
+            Maybe
+          </label>
+          <label
+            ><input
+              class="input-radio"
+              name="user-selection"
+              type="radio"
+              value="not-sure"
+            />
+            Not sure
+          </label>
         </div>
       </form>
     </div>
