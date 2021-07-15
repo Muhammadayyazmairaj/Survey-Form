@@ -130,3 +130,16 @@ form {
   padding: 0.5rem;
   resize: horizontal;
 }
+button {
+  border: none;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: rgb(161, 152, 22);
+  border-radius: 10px;
+  cursor: pointer;
+  color: inherit;
+}
