@@ -23,8 +23,8 @@
         </p>
       </header>
       <form id="survey-form">
-        <div class="form-group">
-          <label id="name-lable" for="name">Name</label>
+        <div class="parent-form">
+          <label id="name-label" for="name">Name</label>
           <input
             type="text"
             name="name"
@@ -34,8 +34,8 @@
             required=""
           />
         </div>
-        <div class="form-group">
-          <label for="email" id="email-lable">Email</label>
+        <div class="parent-form">
+          <label for="email" id="email-label">Email</label>
           <input
             type="text"
             id="email"
@@ -46,8 +46,8 @@
             required=""
           />
         </div>
-        <div class="form-group">
-          <label for="number" id="number-lable">
+        <div class="parent-form">
+          <label for="number" id="number-label">
             Age <span class="Hint">(Optional)</span>
           </label>
           <input
@@ -60,7 +60,7 @@
             class="form-control"
           />
         </div>
-        <div class="form-group">
+        <div class="parent-form">
           <p>
             Which option best describes your current role?
           </p>
@@ -84,7 +84,7 @@
             <option value="other">Other</option>
           </select>
         </div>
-        <div class="form-group">
+        <div class="parent-form">
           <p>
             Would you recommend freeCodeCamp to a friend?
           </p>
@@ -117,7 +117,7 @@
             Not sure
           </label>
         </div>
-        <div class="form-group">
+        <div class="parent-form">
           <p>
             What is your favorite feature of freeCodeCamp?
           </p>
@@ -136,7 +136,7 @@
             <option value="openSource">Open Source</option>
           </select>
         </div>
-        <div class="form-group">
+        <div class="parent-form">
           <p>
             What is your favorite feature of freeCodeCamp?
             <span class="Hint">(Check all that apply)</span>
@@ -150,7 +150,7 @@
             />
             Front-end Projects
           </label>
-          <lable>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -158,8 +158,8 @@
               value="data-visualization"
             />
             Data Visualization
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -167,8 +167,8 @@
               value="challenges"
             />
             Challenges
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -176,8 +176,8 @@
               value="open-source-community"
             />
             Open Source Community
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -185,8 +185,8 @@
               value="back-end-projects"
             />
             Back-end Projects
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -194,8 +194,8 @@
               value="gitter-help-rooms"
             />
             Gitter help rooms
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -203,8 +203,8 @@
               value="videos"
             />
             Videos
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -212,8 +212,8 @@
               value="city-meetups"
             />
             City Meetups
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -221,8 +221,8 @@
               value="wiki"
             />
             Wiki
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -230,8 +230,8 @@
               value="Forum"
             />
             Forum
-          </lable>
-          <lable>
+          </label>
+          <label>
             <input
               class="input-checkbox"
               type="checkbox"
@@ -239,9 +239,9 @@
               value="additional-courses"
             />
             Additional Courses
-          </lable>
+          </label>
         </div>
-        <div class="form-group">
+        <div class="parent-form">
           <p>Any comments or suggestions?</p>
           <textarea
             name="comment"
@@ -251,7 +251,7 @@
           >
           </textarea>
         </div>
-        <div class="form-group">
+        <div class="parent-form">
           <button
             id="submit"
             class="submit-button"
