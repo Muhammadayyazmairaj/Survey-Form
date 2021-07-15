@@ -101,13 +101,13 @@ form {
 }
 
 .parent-form {
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 0.5rem auto;
   padding: 0.25rem;
 }
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 94%;
   height: 2.5rem;
   padding: 0.5rem 0.75rem;
   color: dimgray;
@@ -126,9 +126,9 @@ form {
 
 .input-textarea {
   min-height: 150px;
-  width: 100%;
+  width: 94%;
   padding: 0.5rem;
-  resize: horizontal;
+  resize: vertical;
 }
 button {
   border: none;
@@ -136,10 +136,15 @@ button {
 
 .submit-button {
   display: block;
-  width: 100%;
+  width: 97%;
   padding: 1rem;
   background: rgb(161, 152, 22);
   border-radius: 10px;
   cursor: pointer;
   color: inherit;
+}
+.imp-w100 {
+  display: block;
+  width: 98%;
+  height: 2.5rem;
 }
