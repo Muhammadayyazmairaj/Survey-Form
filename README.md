@@ -2,7 +2,7 @@
 
 > This is a front end application for learning purposes. It was really helpful for me to know how to bulid a forms(HTML/CSS).
 
-![Alt text](https://github.com/Fanger53/News-Week/blob/master/assets/images/ss.PNG)
+![Alt text](https://github.com/Muhammadayyazmairaj/Survey-Form/blob/main/2021-08-12.png)
 
 ## Built With
 
